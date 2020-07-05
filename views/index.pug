@@ -1,4 +1,43 @@
 doctype html
 html(lang='en')
-div#desc
-script(src=location)
+    head
+        script(src="https://unpkg.com/feather-icons")
+        script(src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js")
+        style
+            include styles/reset.css
+            include styles/index.css
+            include styles/header.css
+            include styles/nav.css
+        meta(
+            name="viewport" 
+            content="width=device-width, initial-scale=1.0"
+            )
+    body
+        // navbar
+        include header.pug
+
+        // image service
+        div#img
+
+        // price service
+        div#price
+
+        // system service
+        div#system
+
+        // desc service
+        div#desc
+
+        // related content service
+        div#related
+
+        // other games service
+        div#other
+
+        // footer
+        include footer.pug
+
+        script(src=descService)
+        script.
+            feather.replace()
+        script(src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js")
