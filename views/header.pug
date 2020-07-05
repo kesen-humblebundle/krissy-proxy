@@ -1,11 +1,14 @@
 header.header
     div.header-container
-        div.logo 
+        div.logo.nav-item 
             img.big-logo(src='/static/images/humble_logo.svg')
             img.small-logo(src='/static/images/humble_logo_small.svg')
         include top-nav.pug
-        div.search-bar
+        div.search-bar.nav-item
             input.top-search(placeholder="Search")
             div.search-button
                 i.search-icon(data-feather="search")
+        div.account-details
+            ion-icon(name="person-circle-outline", class="icon account-icon")
+            ion-icon(name="caret-down", class="icon")
             

@@ -1,5 +1,6 @@
 /* @950px -- Hero images and price/add to cart section get smaller (not nav) */
 body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   background-color: #282c34;
   box-sizing: border-box;
 }
@@ -7,4 +8,8 @@ body {
 #desc {
   width: 100%;
   margin: 0 auto;
+}
+
+.clearfix {
+  overflow: auto;
 }
