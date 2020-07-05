@@ -3,6 +3,7 @@ body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   background-color: #282c34;
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 #desc {
