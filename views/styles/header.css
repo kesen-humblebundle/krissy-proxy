@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  background-color: #494f5c;
+  height: 65px;
+  margin-bottom: 2px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 5vw;
+}
+
+.header-container {
+  width: calc(100vw - 4.5em);
+}
+
+.header .big-logo {
+  width: 100px;
+  height: auto;
+}
+
+.header .small-logo {
+  display: none;
+  width: 35px;
+  height: auto;
+}
+
+@media screen and (max-width: 1120px) {
+  /* 
+        Small logo
+        top-nav becomes tabs across bottom
+        Search stretches across page to logo
+        Nav hides on scroll
+    */
+  .header .big-logo {
+    display: none;
+  }
+
+  .header .small-logo {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  /*
+        Spacing between middle nav elements tightens
+        spacing between right side action icons (cart, wallet, etc) tightens
+        Nav hides on scroll
+    */
+}
+
+@media screen and (max-width: 750px) {
+  /* 
+        Hamburger menu replaced middle nav
+        Actions items shows wishlist and cart only (no wallet)
+        Nav drawer from left
+        Nav hides on scroll
+    */
+}
+
+/* no impact on nav
+@media screen and (max-width: 520px) {
+}
+*/

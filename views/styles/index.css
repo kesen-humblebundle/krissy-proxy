@@ -1,0 +1,9 @@
+/* @950px -- Hero images and price/add to cart section get smaller (not nav) */
+body {
+  background-color: #282c34;
+}
+
+#desc {
+  width: 100%;
+  margin: 0 auto;
+}

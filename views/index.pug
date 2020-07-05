@@ -1,4 +1,38 @@
 doctype html
 html(lang='en')
-div#desc
-script(src=location)
+    head
+        style
+            include styles/reset.css
+            include styles/index.css
+            include styles/nav.css
+            include styles/header.css
+        meta(
+            name="viewport" 
+            content="width=device-width, initial-scale=1.0"
+            )
+    body
+        // navbar
+        include header.pug
+
+        // image service
+        div#img
+
+        // price service
+        div#price
+
+        // system service
+        div#system
+
+        // desc service
+        div#desc
+
+        // related content service
+        div#related
+
+        // other games service
+        div#other
+
+        // footer
+        include footer.pug
+
+        script(src=descService)
