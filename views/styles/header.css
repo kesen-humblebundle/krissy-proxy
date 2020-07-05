@@ -48,7 +48,7 @@
 .top-search {
   background-color: #7d828a;
   color: #16181d;
-  font-size: 0.95em;
+  font-size: 0.95rem;
   font-weight: bold;
   width: 400px;
   height: 42px;
@@ -60,7 +60,7 @@
 
 .top-search::placeholder {
   font-weight: 700;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   color: #494f5c;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .account-icon {
-  font-size: 2.2em;
+  font-size: 2.2rem;
 }
 
 .account-details {
