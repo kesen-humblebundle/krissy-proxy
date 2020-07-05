@@ -78,8 +78,8 @@
 }
 
 .search-icon {
-  stroke: #494f5c;
-  height: 15px;
+  color: #494f5c;
+  font-size: 0.9rem;
 }
 
 .icon {
