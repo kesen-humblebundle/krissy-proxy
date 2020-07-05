@@ -4,17 +4,23 @@
   justify-content: flex-start;
   align-content: center;
   align-items: center;
+  flex-wrap: nowrap;
   background-color: #494f5c;
   height: 65px;
   margin-bottom: 2px;
   top: 0;
   left: 0;
-  width: 100%;
+  /* width: 100%; */
   padding: 0 5vw;
 }
 
 .header-container {
-  width: calc(100vw - 4.5em);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .header .big-logo {
@@ -28,13 +34,57 @@
   height: auto;
 }
 
-@media screen and (max-width: 1120px) {
-  /* 
-        Small logo
-        top-nav becomes tabs across bottom
-        Search stretches across page to logo
-        Nav hides on scroll
-    */
+.search-bar {
+  height: 42px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.top-search {
+  background-color: #7d828a;
+  color: #16181d;
+  font-size: 0.95em;
+  font-weight: bold;
+  width: 400px;
+  height: 42px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.top-search::placeholder {
+  font-weight: 700;
+  font-size: 0.9em;
+  color: #494f5c;
+}
+
+.search-button {
+  background-color: #7d828a;
+  color: #494f5c;
+  border: none;
+  height: 42px;
+  margin-left: -30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.search-icon {
+  stroke: #494f5c;
+  height: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  /*
+    search bar spans full width to small logo
+    top-nav items move to tabs on the bottom
+  */
   .header .big-logo {
     display: none;
   }
@@ -42,14 +92,6 @@
   .header .small-logo {
     display: block;
   }
-}
-
-@media screen and (max-width: 950px) {
-  /*
-        Spacing between middle nav elements tightens
-        spacing between right side action icons (cart, wallet, etc) tightens
-        Nav hides on scroll
-    */
 }
 
 @media screen and (max-width: 750px) {
