@@ -32,6 +32,7 @@ app.get("/:product_id", async (req, res) => {
       "http://ec2-54-224-38-115.compute-1.amazonaws.com:5150/bundle/",
     overviewService: process.env.OVERVIEW_SERVICE,
     traitsService: process.env.TRAITS_SERVICE,
+    imageService: process.env.IMAGE_SERVICE,
   });
 });
 
