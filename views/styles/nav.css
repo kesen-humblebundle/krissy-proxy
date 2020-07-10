@@ -43,3 +43,15 @@
   margin-top: -1px;
   margin-left: 2px;
 }
+
+.store-nav-item a {
+  font-weight: 500;
+}
+
+.enticement a {
+  color: #ef9841;
+}
+
+.service-icon {
+  margin-right: 10px;
+}
