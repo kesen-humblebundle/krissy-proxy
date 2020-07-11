@@ -92,6 +92,30 @@
   font-size: 0.9rem;
   line-height: 1.3;
 }
+.footer-social-and-legal .footer-legal {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin-top: 24px;
+}
+.footer-social-and-legal .footer-legal .footer-item {
+  font-size: 0.75rem;
+  color: #b3b8c1;
+}
+.footer-social-and-legal .footer-legal .footer-item::after {
+  content: "•";
+  margin: 0 10px;
+}
+.footer-social-and-legal .footer-legal .footer-item:last-of-type::after {
+  content: "";
+}
+.footer-social-and-legal .footer-legal a {
+  font-size: 0.75rem;
+  color: #b3b8c1;
+}
+.footer-social-and-legal .footer-legal a:hover {
+  background-color: #c4c7cf;
+}
 .footer-about {
   order: 2;
   width: 62.5%;

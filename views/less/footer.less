@@ -100,6 +100,31 @@
     line-height: 1.3;
     //font-weight: 700;
   }
+
+  .footer-legal {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin-top: 24px;
+    .footer-item {
+      font-size: 0.75rem;
+      color: #b3b8c1;
+      &::after {
+        content: "•";
+        margin: 0 10px;
+      }
+      &:last-of-type::after {
+        content: "";
+      }
+    }
+    a {
+      font-size: 0.75rem;
+      color: #b3b8c1;
+      &:hover {
+        background-color: #c4c7cf;
+      }
+    }
+  }
 }
 
 .footer-about {
