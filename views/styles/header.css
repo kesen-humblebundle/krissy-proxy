@@ -7,7 +7,7 @@
   flex-wrap: nowrap;
   background-color: #494f5c;
   height: 65px;
-  margin-bottom: 2px;
+  margin-bottom: 0.05em;
   top: 0;
   left: 0;
   /* width: 100%; */
@@ -42,7 +42,7 @@
 .top-search {
   background-color: #7d828a;
   color: #16181d;
-  font-size: 1.6rem;
+  font-size: rem;
   font-weight: bold;
   width: 400px;
   height: 42px;
