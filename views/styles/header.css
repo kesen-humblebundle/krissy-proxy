@@ -13,7 +13,6 @@
   /* width: 100%; */
   padding: 0 5vw;
 }
-
 .header-container {
   display: flex;
   flex-direction: row;
@@ -23,18 +22,15 @@
   margin: 0 26px;
   width: 100%;
 }
-
 .header .big-logo {
   width: 100px;
   height: auto;
 }
-
 .header .small-logo {
   display: none;
   width: 35px;
   height: auto;
 }
-
 .search-bar {
   height: 42px;
   width: 400px;
@@ -44,7 +40,6 @@
   align-items: center;
   margin-left: auto;
 }
-
 .top-search {
   background-color: #7d828a;
   color: #16181d;
@@ -57,13 +52,11 @@
   padding-left: 15px;
   box-sizing: border-box;
 }
-
 .top-search::placeholder {
   font-weight: 700;
   font-size: 0.9rem;
   color: #494f5c;
 }
-
 .search-button {
   background-color: #7d828a;
   color: #494f5c;
@@ -76,21 +69,17 @@
   align-items: center;
   align-content: center;
 }
-
 .search-icon {
   color: #494f5c;
   font-size: 1.2rem;
 }
-
 .icon {
   color: #d8d8da;
 }
-
 .account-icon {
   font-size: 2.2rem;
   color: #d8d8da;
 }
-
 .account-details {
   display: flex;
   flex-flow: row nowrap;
@@ -105,12 +94,10 @@
   .header .big-logo {
     display: none;
   }
-
   .header .small-logo {
     display: block;
   }
 }
-
 @media screen and (max-width: 750px) {
   /* 
         Hamburger menu replaced middle nav
@@ -119,7 +106,6 @@
         Nav hides on scroll
     */
 }
-
 /* no impact on nav
 @media screen and (max-width: 520px) {
 }

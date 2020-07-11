@@ -2,8 +2,11 @@
   display: flex;
   background-color: #2f333d;
 }
-
 .brand-and-promo {
   display: flex;
   flex-flow: column nowrap;
+}
+.brand-and-promo .footer-logo {
+  width: 86px;
+  height: auto;
 }

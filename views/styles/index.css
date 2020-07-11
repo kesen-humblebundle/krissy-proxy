@@ -5,12 +5,10 @@ body {
   box-sizing: border-box;
   font-size: 62.5%;
 }
-
 #desc {
   width: 100%;
   margin: 0 auto;
 }
-
 .clearfix {
   overflow: auto;
 }
