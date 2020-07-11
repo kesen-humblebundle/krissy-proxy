@@ -1,13 +1,56 @@
+@max-screen-column-width: 50%;
+
 .footer {
   display: flex;
+  flex-flow: row wrap;
   background-color: #2f333d;
+  padding: 0 0 70px 30px;
 }
 
 .brand-and-promo {
   display: flex;
   flex-flow: column nowrap;
+  order: 1;
+  width: @max-screen-column-width;
   .footer-logo {
     width: 86px;
     height: auto;
+    padding-top: 50px;
   }
+  .invite-entice {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 30px;
+    margin-right: 56px;
+    span {
+      color: #c4c7cf;
+      font-size: 0.875rem;
+      margin: 0 42px 24px 0;
+    }
+
+    a {
+      color: #ef9841;
+      text-transform: uppercase;
+      font-size: 0.875rem;
+      font-weight: 900;
+    }
+  }
+}
+
+.footer-social-and-legal {
+  display: flex;
+  flex-flow: column nowrap;
+  order: 3;
+  margin-top: 35px;
+  width: @max-screen-column-width;
+}
+
+.footer-about {
+  order: 2;
+  width: @max-screen-column-width;
+}
+
+.footer-trending {
+  order: 4;
+  width: @max-screen-column-width;
 }
