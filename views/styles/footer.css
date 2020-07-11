@@ -23,13 +23,13 @@
 }
 .brand-and-promo .invite-entice span {
   color: #c4c7cf;
-  font-size: 0.875rem;
+  font-size: 1.6rem;
   margin: 0 42px 24px 0;
 }
 .brand-and-promo .invite-entice a {
   color: #ef9841;
   text-transform: uppercase;
-  font-size: 0.875rem;
+  font-size: 1.6rem;
   font-weight: 900;
 }
 .footer-social-and-legal {
@@ -46,20 +46,22 @@
   align-items: center;
   align-content: center;
   color: white;
-  font-size: 0.875rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  padding: 15px 0;
+  padding-bottom: 25px;
+  cursor: pointer;
 }
 .footer-social-and-legal .footer-language span {
   margin: 5px;
 }
 .footer-social-and-legal .footer-language .icon {
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 .footer-social-and-legal .footer-social {
   display: flex;
   flex-flow: row nowrap;
   margin-bottom: 32px;
+  cursor: pointer;
 }
 .footer-social-and-legal .footer-social .social-icon {
   display: flex;
@@ -89,7 +91,7 @@
 }
 .footer-social-and-legal .footer-donations-blurb {
   color: #dde0e4;
-  font-size: 0.9rem;
+  font-size: 1.6rem;
   line-height: 1.3;
 }
 .footer-social-and-legal .footer-legal {
@@ -99,28 +101,59 @@
   margin-top: 24px;
 }
 .footer-social-and-legal .footer-legal .footer-item {
-  font-size: 0.75rem;
+  font-size: 1.4rem;
   color: #b3b8c1;
 }
-.footer-social-and-legal .footer-legal .footer-item::after {
+.footer-social-and-legal .footer-legal .footer-item:not(:last-of-type)::after {
   content: "•";
   margin: 0 10px;
 }
-.footer-social-and-legal .footer-legal .footer-item:last-of-type::after {
-  content: "";
-}
 .footer-social-and-legal .footer-legal a {
-  font-size: 0.75rem;
+  font-size: 1.4rem;
   color: #b3b8c1;
 }
 .footer-social-and-legal .footer-legal a:hover {
-  background-color: #c4c7cf;
+  color: #c4c7cf;
+}
+.footer-heading {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 700;
+  width: 100%;
+}
+.wide-col-2 {
+  padding-left: 25px;
+}
+.footer-item {
+  color: #b3b8c1;
+  font-size: 1.4rem;
+  margin: 10px 0;
 }
 .footer-about {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
   order: 2;
   width: 62.5%;
+  margin-top: 86px;
+}
+.footer-about .about-item {
+  margin-top: 20px;
+  flex-grow: 1;
+  width: 45%;
 }
 .footer-trending {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
   order: 4;
   width: 62.5%;
+  padding-top: 25px;
+}
+.footer-trending .trending-item {
+  margin-top: 20px;
+  flex-grow: 1;
+  width: 45%;
 }
