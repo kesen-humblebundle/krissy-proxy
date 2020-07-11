@@ -39,6 +39,54 @@
   margin-top: 35px;
   width: 50%;
 }
+.footer-social-and-legal .footer-language {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding: 15px 0;
+}
+.footer-social-and-legal .footer-language span {
+  margin: 5px;
+}
+.footer-social-and-legal .footer-language .icon {
+  font-size: 1rem;
+}
+.footer-social-and-legal .footer-social {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 32px;
+}
+.footer-social-and-legal .footer-social .social-icon {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-right: 5px;
+  width: 32px;
+  height: 32px;
+  background-color: #7c828d;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  margin: 3px;
+}
+.footer-social-and-legal .footer-social .social-icon:hover {
+  background-color: #c4c7cf;
+}
+.footer-social-and-legal .footer-social .social-icon:first-of-type {
+  margin-left: 0;
+}
+.footer-social-and-legal .footer-social .social-icon:last-of-type {
+  margin-right: 0;
+}
+.footer-social-and-legal .footer-social .social-icon .icon {
+  fill: #2f333d;
+}
 .footer-about {
   order: 2;
   width: 50%;
