@@ -28,8 +28,7 @@ app.use("/static", express.static(path.resolve(__dirname, "../assets")));
 
 app.get("/:product_id", async (req, res) => {
   res.status(200).render("index", {
-    descService:
-      "http://ec2-54-224-38-115.compute-1.amazonaws.com:5150/bundle/",
+    descService: process.env.DESC_SERVICE,
     overviewService: process.env.OVERVIEW_SERVICE,
     traitsService: process.env.TRAITS_SERVICE,
     imageService: process.env.IMAGE_SERVICE,
