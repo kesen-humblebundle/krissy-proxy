@@ -33,3 +33,6 @@ body {
 .hero #price img {
   height: 429px;
 }
+#title {
+  margin-left: 25px;
+}
