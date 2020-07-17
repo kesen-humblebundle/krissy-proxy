@@ -25,6 +25,7 @@ app.use(
   })
 );
 app.use("/static", express.static(path.resolve(__dirname, "../assets")));
+app.set("views", path.resolve(__dirname, "../views"));
 
 app.get("/:product_id", async (req, res) => {
   res.status(200).render("index", {
