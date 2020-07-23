@@ -12,7 +12,7 @@ const app = express();
 app.set("view engine", "pug");
 
 app.use(morgan("dev"));
-app.use(helmet());
+//app.use(helmet());
 
 app.use(helmet.noSniff());
 app.use(
@@ -33,6 +33,7 @@ app.get("/:product_id", async (req, res) => {
     overviewService: process.env.OVERVIEW_SERVICE,
     traitsService: process.env.TRAITS_SERVICE,
     imageService: process.env.IMAGE_SERVICE,
+    priceService: process.env.PRICE_SERVICE,
   });
 });
 
