@@ -34,6 +34,7 @@ app.get("/:product_id", async (req, res) => {
     traitsService: process.env.TRAITS_SERVICE,
     imageService: process.env.IMAGE_SERVICE,
     priceService: process.env.PRICE_SERVICE,
+    relatedService: process.env.RELATED_SERVICE,
   });
 });
 
