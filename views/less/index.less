@@ -24,18 +24,32 @@ body {
   overflow: auto;
 }
 
-.hero {
+.heroContainer {
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  align-content: center;
-  #price {
-    margin-top: 20px;
-    img {
-      height: 429px;
+  flex-flow: column wrap;
+  max-width: 1125px;
+  margin: 0 auto;
+
+  .hero {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+    max-width: 1125px;
+    margin: 0 auto;
+    #price {
+      margin-top: 20px;
+      img {
+        height: 429px;
+      }
     }
   }
+}
+
+#carousel {
+  max-width: 1125px;
+  margin: 0 auto;
 }
 
 #title {
