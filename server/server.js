@@ -35,6 +35,7 @@ app.get("/:product_id", async (req, res) => {
     imageService: process.env.IMAGE_SERVICE,
     priceService: process.env.PRICE_SERVICE,
     relatedService: process.env.RELATED_SERVICE,
+    otherPopService: process.env.OTHER_POP_SERVICE,
   });
 });
 

@@ -56,3 +56,6 @@ body {
 #related {
   margin-top: 25px;
 }
+#OtherPopularGames {
+  box-sizing: content-box;
+}
