@@ -38,4 +38,8 @@ app.get("/:product_id", async (req, res) => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.redirect("/21");
+});
+
 module.exports = app;
