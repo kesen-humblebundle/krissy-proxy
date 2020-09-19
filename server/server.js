@@ -33,7 +33,7 @@ app.get("/:product_id", async (req, res) => {
     overviewService: process.env.OVERVIEW_SERVICE,
     traitsService: process.env.TRAITS_SERVICE,
     imageService: process.env.IMAGE_SERVICE,
-    priceService: process.env.PRICE_SERVICE,
+    priceService: process.env.PRICE_SERVICE || 'http://localhost:3006/bundle.js',
     relatedService: process.env.RELATED_SERVICE,
     otherPopService: process.env.OTHER_POP_SERVICE,
     legalService: process.env.LEGAL_SERVICE,
