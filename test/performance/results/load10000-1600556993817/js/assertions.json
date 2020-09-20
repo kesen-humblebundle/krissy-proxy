@@ -1,0 +1,10 @@
+{
+  "simulation": "priceAndPromotion.GetReqSimulation",
+  "simulationId": "load10000",
+  "start": 1600556993817,
+  "description": "",
+  "scenarios": ["Get"],
+  "assertions": [
+
+  ]
+}
