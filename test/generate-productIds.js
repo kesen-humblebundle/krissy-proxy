@@ -1,6 +1,5 @@
 const faker = require('faker');
-const fs = require('fs');
-const {writeData} = require('../database/writeToCSV.js');
+const {writeData} = require('./writeToCSV.js');
 
 /* 
 * @function generateGeneralDiscountsGenerates
@@ -26,6 +25,6 @@ const generateProductIds = () => {
 module.exports.generateProductIds = generateProductIds;
 
 //write products data to csv if ran from command line
-process.argv[2] === '--generate' ? writeData(2e3, generateProductIds, 'productsIds', false) : null;
+process.argv[2] === '--generate' ? writeData(2e3, generateProductIds, 'productsIds') : null;
 
 
