@@ -30,6 +30,8 @@
     "superagent": "^5.3.1"
   },
   "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.20.6",
     "gatlingjs": "0.0.7",
     "less": "^3.11.3",
     "less-watch-compiler": "^1.14.6",
