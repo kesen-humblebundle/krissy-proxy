@@ -1,0 +1,10 @@
+{
+  "simulation": "priceAndPromotion.GetReqStressSimulation",
+  "simulationId": "stress100",
+  "start": 1600591933345,
+  "description": "",
+  "scenarios": ["Get"],
+  "assertions": [
+
+  ]
+}
