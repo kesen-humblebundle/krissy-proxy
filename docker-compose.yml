@@ -1,0 +1,25 @@
+# version: '3.3'
+
+# services:
+
+  #backend
+  # redis:
+  #   image: redis
+  #   container_name: cache
+  #   ports:
+  #     - "6379:6379"
+  
+  app:
+    # image: krispytrt/humble-proxy
+    restart: always
+    container_name: proxy
+    build: .
+    working_dir: /usr/src/proxy
+    ports:
+      - "80:1000"
+    # depends_on:
+    #   - redis
+    env_file:
+      - .env
+    command: bash -c "npm run start"
+
